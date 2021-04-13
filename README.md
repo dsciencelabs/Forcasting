@@ -17,9 +17,17 @@ When you try to knit the Rmd file, make sure you have installed (updated) the fo
 * https://get.adobe.com/reader/
   * uncheck OPTIONAL OFFERS if it's not necessary for you 
   * you can choose either pro version or free (depending on your needs)
-* run this code in your **R Console:** 
-  * tinytex::install_tinytex() *or* 
-  * tinytex::reinstall_tinytex() 
-* finally knit files .Rmd that you want to edit,read, etc.
+* Install tinytex package and install TinyTex distribution.
+  * install.packages("tinytex")
+  * tinytex::install_tinytex()
+* Checked if it was installed.
+  * tinytex:::is_tinytex()
+* Tryed another option of installation.
+  * devtools::install_github('yihui/tinytex')
+* Tryed to uninstall and reinstall it some times.
+  * tinytex::uninstall_tinytex()
+  * remove.packages("tinytex")
+* Tryed to fix it since pdflatex.exe could not be found.
+  * tinytex:::install_prebuilt()
 
 
