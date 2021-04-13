@@ -17,7 +17,9 @@ When you try to knit the Rmd file, make sure you have installed (updated) the fo
 * https://get.adobe.com/reader/
   * uncheck OPTIONAL OFFERS if it's not necessary for you 
   * you can choose either pro version or free (depending on your needs)
-* tinytex::install_tinytex() or tinytex::reinstall_tinytex() in your **R Console**
+* run this code in your **R Console:** 
+  * tinytex::install_tinytex() or 
+  * tinytex::reinstall_tinytex() 
 * finally knit files .Rmd that you want to edit,read, etc.
 
 
